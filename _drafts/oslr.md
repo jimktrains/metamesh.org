@@ -8,9 +8,9 @@ author: James Keener
 How do computers talk to each other?
 ------------------------------------
 
-Because you're reading this I know your computer is displaying you data
+Because you are reading this I know your computer is displaying you data
 you downloaded from a server somewhere on the internet. There are many
-articles that discuss how you computer uses
+articles that discuss how your computer uses
 [DNS](hltp://en.wikipedia.org/wiki/Domain_Name_System) to figure out the
 name `metamesh.org` belongs at the address `162.255.119.254`, very
 similarly to, but not quite exactly like, looking up your friends number
@@ -37,9 +37,9 @@ Introduction to Routing
 =======================
 
 Now imagine you work in a big company and don't know everyone
-personally. (and who could blame you! There's almost 4261347072<sup><a
+personally (and who could blame you! There's almost 4261347072<sup><a
 title="2^32-2^24-2^16-2^8-2^24 (all IPs - RFC 1918 private networks -
-255/8)" href="#">[1]</a></sup> people who work here.) So you're Alice, and you need
+255/8)" href="#">[1]</a></sup> people who work here). So you're Alice, and you need
 to get this packet of papers to Bob.  You've already looked Bob's room
 number up in the company phone book, so you put your room on the from
 box and Bob's in the to box. You know where your mail room (a router)
