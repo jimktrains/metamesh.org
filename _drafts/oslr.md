@@ -100,7 +100,7 @@ Going back to the mail rooms, they have 2 basic options:
 ![](/images/posts/oslr/ttr_map.jpg)
 
 
-* A table showing which mail room to send lelters to if they want to go
+* A table showing which mail room to send letters to if they want to go
   to a certain other mail room, and how many mail rooms it needs to go
   through to get there (Distance Vector)
 
@@ -142,7 +142,7 @@ mail to that mail room to it and tells all the mail rooms it's connected
 to "I'm 0 hops from the new mail room &lt;insert new mail room
 address&gt;".
 
-Upon gelting this message, the mail rooms add a line to their table
+Upon getting this message, the mail rooms add a line to their table
 saying "To send packets to &lt;insert new mail room address here&gt;
 send mail to &lt;mail room I just got a message from&gt;, it's only
 &lt;insert hop count&gt; away." It then sends a message to all the mail
