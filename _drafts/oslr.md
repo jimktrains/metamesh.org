@@ -114,7 +114,7 @@ it there.
 
 The second option looks pretty easy, why not always use it? To
 understand better, we need to look at what happens when new offices are
-build (a router added to the network) and old ones dismantled (a router
+built (a router added to the network) and old ones dismantled (a router
 leaves the network).
 
 Link State Updates
