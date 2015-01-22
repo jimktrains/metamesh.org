@@ -39,7 +39,7 @@ Introduction to Routing
 Now imagine you work in a big company and don't know everyone
 personally. (and who could blame you! There's almost 4261347072<sup><a
 title="2^32-2^24-2^16-2^8-2^24 (all IPs - RFC 1918 private networks -
-25/8)">1</a></sup> people who work here.) So you're Alice, and you need
+255/8)" href="#">[1]</a></sup> people who work here.) So you're Alice, and you need
 to get this packet of papers to Bob.  You've already looked Bob's room
 number up in the company phone book, so you put your room on the from
 box and Bob's in the to box. You know where your mail room (a router)
@@ -89,7 +89,7 @@ there.
 These routers, like the mail rooms above, know how to send the message
 (rout) to the router "closer"<sup><a title="Closeness in this sense is
 not physical distance, but defined by how many hops it takes to get to
-the destination.">2</a></sup> to the computer you want to contact, but
+the destination.">[2]</a></sup> to the computer you want to contact, but
 how? 
 
 Going back to the mail rooms, they have 2 basic options:
@@ -165,3 +165,10 @@ Optimized Link State Routing (OSLR) Protocol
 OSLR is an example of that first type of routing protocol.  Each node
 knows about all the other nodes and who they're connected to.
 
+FootNotes
+---------
+<sup>1</sup> 2^32-2^24-2^16-2^8-2^24 (all IPs - RFC 1918 private 
+networks - 255/8)
+
+<sup>2</sup> Closeness in this sense is not physical distance, but
+defined by how many hops it takes to get to the destination.
